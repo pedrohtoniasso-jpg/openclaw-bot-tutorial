@@ -1,0 +1,23 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/home/opc/.openclaw/workspaces/replica",
+      "model": {
+        "primary": "openai-codex/gpt-5.5",
+        "fallbacks": ["openai-codex/gpt-5.3-codex", "openrouter/auto"]
+      },
+      "silentReply": { "direct": "allow" }
+    }
+  },
+  "tools": {
+    "profile": "coding",
+    "alsoAllow": ["browser", "message", "gateway", "tts"],
+    "elevated": { "enabled": false }
+  },
+  "plugins": {
+    "entries": {
+      "browser": { "enabled": true },
+      "memory-core": { "config": { "dreaming": { "enabled": true } } }
+    }
+  }
+}
