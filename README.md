@@ -14,13 +14,20 @@ O objetivo é montar uma **réplica funcional**, não uma cópia da identidade/m
 
 ## Estrutura
 
-- `docs/` — passo a passo completo
+- `docs/` — passo a passo completo, incluindo instalação de skills
 - `configs/` — exemplos de `openclaw.json`
 - `skills/` — skill base de comportamento e operação
 - `templates/` — `AGENTS.md`, `SOUL.md`, `USER.md`, `TOOLS.md`, `HEARTBEAT.md`
 - `scripts/` — assistente interativo de configuração
 - `memory/` — intencionalmente quase vazio; ponto de partida limpo
 - `examples/` — exemplos de prompts, crons e fluxos
+
+## Skills incluídas
+
+- `replica-assistant` — skill base para operação do agente novo.
+- `cerebro` — skill de segundo cérebro, sem carregar contexto privado junto.
+
+Veja `docs/04-skills.md` para instalar em outro agente.
 
 ## Princípio de segurança
 

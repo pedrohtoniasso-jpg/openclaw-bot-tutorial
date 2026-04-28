@@ -1,0 +1,7 @@
+interface:
+  display_name: "Cérebro"
+  short_description: "Conecta contexto persistente de trabalho"
+  default_prompt: "Use $cerebro para conectar meu segundo cérebro e resumir o estado atual da memória de trabalho."
+
+policy:
+  allow_implicit_invocation: true
